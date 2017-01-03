@@ -2,3 +2,20 @@
     height: 400px;
     width: 80%;
 }
+
+#map1 {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#map2 {
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+
+#map2 {
+    -webkit-clip-path: ellipse(42% 41% at 50% 50%);
+    clip-path: ellipse(42% 41% at 50% 50%);
+}

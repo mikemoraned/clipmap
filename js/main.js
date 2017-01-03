@@ -1,5 +1,5 @@
-var map1 = L.map('map1').setView([51.505, -0.09], 13);
-var map2 = L.map('map2').setView([51.505, -0.09], 8);
+var map1 = L.map('map1').setView([51.505, -0.09], 8);
+var map2 = L.map('map2').setView([51.505, -0.09], 9);
 
 var osmUrl='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
