@@ -1,21 +1,29 @@
 .map {
-    height: 400px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background-color: white;
 }
 
 #map1 {
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     top: 0;
+
+    -webkit-clip-path: polygon(100% 0, 16% 0, 43% 50%, 16% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 16% 0, 43% 50%, 16% 100%, 100% 100%);
 }
 
 #map2 {
     position: absolute;
     top: 0px;
-    z-index: 2;
-}
+    z-index: 3;
 
-#map2 {
-    -webkit-clip-path: ellipse(42% 41% at 50% 50%);
-    clip-path: ellipse(42% 41% at 50% 50%);
+    -webkit-clip-path: polygon(0% 0%, 15% 0, 42% 50%, 15% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 15% 0, 42% 50%, 15% 100%, 0% 100%);
 }
