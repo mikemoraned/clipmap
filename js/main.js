@@ -9,14 +9,14 @@ var osmAttrib='Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> 
 
 L.tileLayer(osmUrl, {
     attribution: osmAttrib,
-    minZoom: 8, maxZoom: 12,
+    minZoom: 4, maxZoom: 12,
 }).addTo(map1);
 var marker1 = L.marker(location1).addTo(map1);
 L.Polyline.Arc(location1, location2).addTo(map1);
 
 L.tileLayer(osmUrl, {
     attribution: osmAttrib,
-    minZoom: 8, maxZoom: 12,
+    minZoom: 4, maxZoom: 12,
 }).addTo(map2);
 var marker2 = L.marker(location2).addTo(map2);
 L.Polyline.Arc(location1, location2).addTo(map2);
