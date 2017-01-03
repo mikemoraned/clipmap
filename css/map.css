@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+#map2 {
+    width: 42%;
+}
+
 #bg {
     position: absolute;
     z-index: 1;
@@ -24,6 +28,6 @@
     top: 0px;
     z-index: 3;
 
-    -webkit-clip-path: polygon(0% 0%, 15% 0, 42% 50%, 15% 100%, 0% 100%);
-    clip-path: polygon(0% 0%, 15% 0, 42% 50%, 15% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0% 0%, 35% 0, 100% 50%, 35% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 35% 0, 100% 50%, 35% 100%, 0% 100%);
 }
