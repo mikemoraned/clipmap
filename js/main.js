@@ -8,9 +8,11 @@ L.tileLayer(osmUrl, {
     attribution: osmAttrib,
     minZoom: 8, maxZoom: 12,
 }).addTo(map1);
+var marker1 = L.marker([51.5, -0.09]).addTo(map1);
 
 L.tileLayer(osmUrl, {
     attribution: osmAttrib,
     minZoom: 8, maxZoom: 12,
 }).addTo(map2);
+var marker2 = L.marker([51.5, -0.09]).addTo(map2);
 
