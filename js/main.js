@@ -20,4 +20,7 @@ L.tileLayer(osmUrl, {
 }).addTo(map2);
 var marker2 = L.marker(location2).addTo(map2);
 L.Polyline.Arc(location1, location2).addTo(map2);
+map2.on('zoomend', function() {
+    map1.setZoom(map2.getZoom());
+});
 
